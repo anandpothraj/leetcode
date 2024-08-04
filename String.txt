@@ -1,0 +1,20 @@
+13. Roman to Integer
+14. Longest Common Prefix
+20. Valid Parentheses
+28. Find the Index of the First Occurrence in a String
+58. Length of Last Word
+67. Add Binary
+125. Valid Palindrome
+168. Excel Sheet Column Title
+171. Excel Sheet Column Number
+205. Isomorphic Strings
+242. Valid Anagram
+257. Binary Tree Paths
+290. Word Pattern
+344. Reverse String
+345. Reverse Vowels of a String
+383. Ransom Note
+387. First Unique Character in a String
+389. Find the Difference
+392. Is Subsequence
+2418. Sort the People
