@@ -22,3 +22,4 @@
 2418. Sort the People
 3232. Find if Digit Game Can Be Won
 349. Intersection of Two Arrays
+350. Intersection of Two Arrays II
