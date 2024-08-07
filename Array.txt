@@ -1,6 +1,6 @@
 1. Two Sum (Done)
 26. Remove Duplicates from Sorted Array (Done)
-27. Remove Element
+27. Remove Element (Done)
 35. Search Insert Position
 66. Plus One
 88. Merge Sorted Array
