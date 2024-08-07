@@ -2,7 +2,7 @@
 26. Remove Duplicates from Sorted Array (Done)
 27. Remove Element (Done)
 35. Search Insert Position (Done)
-66. Plus One
+66. Plus One (Done)
 88. Merge Sorted Array
 108. Convert Sorted Array to Binary Search Tree
 118. Pascal's Triangle

@@ -3,20 +3,26 @@
 // Increment the large integer by one and return the resulting array of digits.
 
 var plusOne = function(digits) {
+    let carry = 1;
     for(let i=digits.length-1; i>=0; i--){
-        digits[i]++;
-        if(digits[i] > 9){
+        let add = digits[i]+carry;
+        if(add > 9){
             digits[i] = 0;
+            carry = 1;
         }
         else{
-            return digits;
+            digits[i] = add;
+            carry = 0;
+            break;
         }
     }
-    digits.unshift(1);
+    if(carry){
+        digits.unshift(carry);
+    }
     return digits;
 };
 
-// console.log(plusOne([ 1, 2, 3]))  //Output : [ 1, 2, 4]
-// console.log(plusOne([4,3,2,1]))  //Output : [4,3,2,2]
-// console.log(plusOne([9]))  //Output : [1,0]
-// console.log(plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))  //Output : [6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,4]
+console.log(plusOne([9]))                                      // [1,0]
+console.log(plusOne([1,2,3]))                                  // [1,2,4]
+console.log(plusOne([4,3,2,1]))                                // [4,3,2,2]
+console.log(plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))  // [6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,4]
