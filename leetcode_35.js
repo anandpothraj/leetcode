@@ -14,14 +14,14 @@ var searchInsert = function(nums, target) {
             left = mid + 1;
         }
         else{
-            right = mid -1;
+            right = mid - 1;
         }
     }
     return left;
 };
 
 
-console.log(searchInsert([1,3,5,6],5))  // Output : 2.
-console.log(searchInsert([1,3,5,6],2))  // Output : 1.
-console.log(searchInsert([1,3,5,6],7))  // Output : 4.
-console.log(searchInsert([1,3],2))  // Output : 1.
+console.log(searchInsert([1,3],2))      // 1
+console.log(searchInsert([1,3,5,6],5))  // 2
+console.log(searchInsert([1,3,5,6],2))  // 1
+console.log(searchInsert([1,3,5,6],7))  // 4
