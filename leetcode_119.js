@@ -5,14 +5,8 @@
 
 var getRow = function(rowIndex) {
     let result = [1];
-    for(let i=0; i<rowIndex; i++){
-        let newRow = new Array(result.length+1).fill(0);
-        for(let j=0; j<result.length; j++){
-            newRow[j] += result[j];
-            newRow[j+1] += result[j];
-
-        }
-        result = newRow;
+    for(let i=1; i<=rowIndex; i++){
+        result[i] = result[i-1] * (rowIndex - i + 1) / i;
     }
     return result;
 };
